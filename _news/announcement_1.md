@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-07-28 19:00:00-20:00:00
 inline: true
 ---
 
-A simple inline announcement.
+Invited talk at [ISCA SIGML Seminar](https://homepages.inf.ed.ac.uk/htang2/sigml/seminar/), [video](https://www.youtube.com/watch?v=gk6thCWl_eE).

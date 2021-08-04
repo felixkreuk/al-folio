@@ -2,23 +2,24 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: PhD student @ Bar-Ilan university, Research-intern at FAIR.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: profile_pic.jpg
+  address: #>
+    #<p>555 your office number</p>
+    #<p>123 your address street</p>
+    #<p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My name is Felix Kreuk. I am a Computer-Science PhD candidate at Bar-Ilan University under the supervision of Prof. Joseph Keshet.
+I am currently a Research intern at Facebook AI Research (FAIR) under the supervision of Dr. Yossi Adi.
+I've also spent time at NVIDIA Research (2019-2020).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests are in machine-learning, deep-learning and their applications in speech processing, spcifically, speech synthesis.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
