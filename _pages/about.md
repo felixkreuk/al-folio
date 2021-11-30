@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: PhD student @ Bar-Ilan university, Research-intern at FAIR.
+description: PhD student @ Bar-Ilan university, AI Research Engineer at Meta.
 
 profile:
   align: right
