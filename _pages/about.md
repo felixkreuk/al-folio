@@ -17,9 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Felix Kreuk. I am a Computer-Science PhD candidate at Bar-Ilan University under the supervision of Prof. Joseph Keshet.
-I am currently a Research intern at Facebook AI Research (FAIR) under the supervision of Dr. Yossi Adi.
+My name is Felix Kreuk. I am a 4th year Computer-Science PhD candidate at Bar-Ilan University under the supervision of Prof. Joseph Keshet.
+I am currently a Research Engineer at Meta AI research, previously Facebook AI Research (FAIR).
+Before that, I was a Research Intern at FAIR under the supervision of Dr. Yossi Adi.
 I've also spent time at NVIDIA Research (2019-2020).
 
 My research interests are in machine-learning, deep-learning and their applications in speech processing, spcifically, speech synthesis.
-
