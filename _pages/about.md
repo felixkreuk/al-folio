@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: PhD student @ Bar-Ilan university, AI Research Engineer at Meta.
+description: AI Research Engineer at Meta.
 
 profile:
   align: right
@@ -17,9 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Felix Kreuk. I am a 4th year Computer-Science PhD candidate at Bar-Ilan University under the supervision of Prof. Joseph Keshet.
+My name is Felix Kreuk. 
 I am currently a Research Engineer at Meta AI research, previously Facebook AI Research (FAIR).
-Before that, I was a Research Intern at FAIR under the supervision of Dr. Yossi Adi.
+I completed my PhD in Computer-Science from Bar-Ilan University under the supervision of Prof. Joseph Keshet.
 I've also spent time at NVIDIA Research (2019-2020).
 
-My research interests are in machine-learning, deep-learning and their applications in speech processing, spcifically, speech synthesis.
+My research interests lie in the intersection of deep-learning and speech/audio processing. Most of my recent work involves with generative models for speech and general audio.
