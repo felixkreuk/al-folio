@@ -1,0 +1,149 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adriya - Minimal, Creative, One Page Bootstrap Template</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/font-icon.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="css/academicons/css/academicons.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- header top section -->
+<section class="banner" role="banner">
+  <header id="header">
+    <div class="header-content clearfix">
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#publications">Publications</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
+</section>
+
+<!-- header top section --> 
+<!-- header content section -->
+<section id="hero" class="section ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-6 hero">
+        <div class="hero-content">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" width="400" src="images/felix.jpeg" alt="">
+          <h2>Felix Kreuk</h2>
+        </div>
+        <!-- hero --> 
+      </div>
+      <div class="col-md-7 col-sm-6 hero">
+        <div class="hero-content">
+          <p>
+            My name is Felix Kreuk. 
+            I am currently a Research Engineer at Meta AI research, previously Facebook AI Research (FAIR). 
+            I completed my PhD in Computer-Science from <a href="https://www.biu.ac.il/en">Bar-Ilan University</a> under the supervision of <a href="https://keshet.net.technion.ac.il/">Prof. Joseph Keshet</a>. 
+            I have also spent time at NVIDIA Research (2019-2020).
+            <br/><br/>
+            My research interests lie in the intersection of deep-learning and speech/audio processing. 
+            Most of my recent work involves with generative models for speech and general audio.
+          </p>
+
+          <br>
+          <i class="fa fa-envelope"></i> felix.kreuk at gmail dot com</a>
+
+          <br><br>
+          <a href="https://github.com/felixkreuk" target="_blank" class="social">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+          <a href="https://scholar.google.co.il/citations?user=UiERcYsAAAAJ&hl=en" target="_blank" class="social">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="ai ai-google-scholar fa-stack-2x fa-inverse"></i>
+            </span>
+          </a>
+          <a href="https://il.linkedin.com/in/felix-kreuk-033589b0" target="_blank" class="social">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+
+        </div>
+        <!-- hero --> 
+      </div>
+    </div>
+
+    <div class="row">      
+      <div class="col-md-12 text-left">
+      	<h3><u>News</u></h3>	
+    	  <ul class="fa-ul mb-0">
+          {% for news in news_list %}
+          <li class="mb-1">
+            <i class="fa fa-li {{ news[0] }}"></i> {{ news[1] }}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="publications" class="service section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-left">
+				<div class="my-auto">
+          <h2 class="mb-5">Publications</h2>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <ol>
+                {% for paper in papers %}
+                <li id="paper"  class="mb-1"> {{ paper["authors"] }}. <b>{{ paper["title"] }}</b>. <em>{{ paper["venue"] }}</em> </li>
+                  [{% for type, link in paper["links"].items() %}
+                  <a href="{{ link }}" target="_blank">{{ type }}</a>
+                  {% endfor %}]
+                {% endfor %}
+              </ol>
+            </div>
+          </div>                            
+        </div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- service section --> 
+<!-- footer section -->
+<footer class="footer">
+  <div class="container">
+    <div class="col-md-6 right">
+      <p>© 2015 All rights reserved. All Rights Reserved<br>
+        Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
+    </div>
+  </div>
+</footer>
+<!-- footer section --> 
+
+<!-- JS FILES --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/retina.min.js"></script> 
+<script src="js/modernizr.js"></script> 
+<script src="js/main.js"></script>
+</body>
+</html>
