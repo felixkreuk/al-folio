@@ -27,6 +27,7 @@ papers = [
         "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2022",
         "links": {
             "PDF,": "https://arxiv.org/pdf/2111.07402.pdf",
+            "Code,": "https://github.com/facebookresearch/fairseq/tree/main/examples/emotion_conversion",
             "Samples,": "https://speechbot.github.io/emotion/",
             "Blog": "https://ai.facebook.com/blog/generating-chit-chat-including-laughs-yawns-ums-and-other-nonverbal-cues-from-raw-audio/",
         }
