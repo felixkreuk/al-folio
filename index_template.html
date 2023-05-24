@@ -111,10 +111,17 @@
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <ol>
+                {% set ns = namespace(prev_year=0) %}
                 {% for paper in papers %}
-                <li id="paper"  class="mb-1"> {{ paper["authors"] }}. <b>{{ paper["title"] }}</b>. <em>{{ paper["venue"] }}</em> </li>
+                  {% if paper["year"] != ns.prev_year %}
+                    <h3>{{ paper["year"] }}</h3>
+                    {% set ns.prev_year = paper["year"] %}
+                  {% else %}
+                    bla
+                  {% endif %}
+                  <li id="paper"  class="mb-1"> {{ paper["authors"] }}. <b>{{ paper["title"] }}</b>. <em>{{ paper["venue"] }}</em> </li>
                   [{% for type, link in paper["links"].items() %}
-                  <a href="{{ link }}" target="_blank">{{ type }}</a>
+                    <a href="{{ link }}" target="_blank">{{ type }}</a>
                   {% endfor %}]
                 {% endfor %}
               </ol>

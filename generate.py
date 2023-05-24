@@ -13,13 +13,24 @@ news = [
 
 papers = [
     {
+        "title": "Textually Pretrained Speech Language Models",
+        "authors": "Michael Hassid, Tal Remez, Tu Anh Nguyen, Itai Gat, Alexis Conneau, <u>Felix Kreuk</u>, Jade Copet, Alexandre Defossez, Gabriel Synnaeve, Emmanuel Dupoux, Roy Schwartz, Yossi Adi",
+        "venue": "arXiv, 2023",
+        "links": {
+            "PDF,": "https://arxiv.org/pdf/2305.13009.pdf",
+            "Samples": "https://pages.cs.huji.ac.il/adiyoss-lab/twist/",
+        },
+        "year": 2023,
+    },
+    {
         "title": "AudioGen: Textually Guided Audio Generation",
         "authors": "<u>Felix Kreuk</u>, Gabriel Synnaeve, Adam Polyak, Uriel Singer, Alexandre Défossez, Jade Copet, Devi Parikh, Yaniv Taigman, Yossi Adi",
-        "venue": "arXiv, 2022",
+        "venue": "International Conference on Learning Representations (ICLR), 2023",
         "links": {
             "PDF,": "https://arxiv.org/pdf/2209.15352.pdf",
             "Samples": "https://felixkreuk.github.io/text2audio_arxiv_samples/",
         },
+        "year": 2023,
     },
     {
         "title": "Textless Speech Emotion Conversion using Decomposed and Discrete Representations",
@@ -30,7 +41,8 @@ papers = [
             "Code,": "https://github.com/facebookresearch/fairseq/tree/main/examples/emotion_conversion",
             "Samples,": "https://speechbot.github.io/emotion/",
             "Blog": "https://ai.facebook.com/blog/generating-chit-chat-including-laughs-yawns-ums-and-other-nonverbal-cues-from-raw-audio/",
-        }
+        },
+        "year": 2022,
     },
     {
         "title": "A Systematic Comparison of Phonetic Aware Techniques for Speech Enhancement",
@@ -40,6 +52,7 @@ papers = [
             "PDF,": "https://arxiv.org/pdf/2206.11000.pdf",
             "Code": "https://github.com/slp-rl/SC-PhASE",
         },
+        "year": 2022,
     },
     {
         "title": "Self-supervised Speaker Diarization",
@@ -47,7 +60,8 @@ papers = [
         "venue": "The 23rd Annual Conference of the International Speech Communication Association (Interspeech), 2022",
         "links": {
             "PDF": "https://arxiv.org/pdf/2204.04166.pdf"
-        }
+        },
+        "year": 2022,
     },
     {
         "title": "Formant Estimation and Tracking using Probabilistic Heat-Maps",
@@ -55,7 +69,8 @@ papers = [
         "venue": "The 23rd Annual Conference of the International Speech Communication Association (Interspeech), 2022",
         "links": {
             "PDF": "https://arxiv.org/pdf/2206.11632.pdf"
-        }
+        },
+        "year": 2022,
     },
     {
         "title": "Correcting Misproducted Speech using Spectrogram Inpainting",
@@ -63,7 +78,8 @@ papers = [
         "venue": "The 23rd Annual Conference of the International Speech Communication Association (Interspeech), 2022",
         "links": {
             "PDF": "https://arxiv.org/pdf/2204.03379.pdf"
-        }
+        },
+        "year": 2022,
     },
     {
         "title": "Speech Time-Scale Modification With GANs",
@@ -71,7 +87,8 @@ papers = [
         "venue": "IEEE Signal Processing Letters, 2022",
         "links": {
             "PDF": "https://ieeexplore.ieee.org/document/9747953"
-        }
+        },
+        "year": 2022,
     },
     {
         "title": "Self-supervised contrastive learning for unsupervised phoneme segmentation",
@@ -80,7 +97,8 @@ papers = [
         "links": {
             "PDF,": "https://arxiv.org/pdf/2007.13465.pdf",
             "Code": "https://github.com/felixkreuk/UnsupSeg"
-        }
+        },
+        "year": 2020,
     },
     {
         "title": "Hide and Speak: Towards Deep Neural Networks for Speech Steganography",
@@ -90,7 +108,8 @@ papers = [
             "PDF,": "https://arxiv.org/pdf/1902.03083.pdf",
             "Samples,": "projects/steg/index.html",
             "Code": "https://github.com/felixkreuk/HideAndSpeak"
-        }
+        },
+        "year": 2020,
     },
     {
         "title": "A Causal View of Compositional Zero-Shot Recognition",
@@ -98,7 +117,8 @@ papers = [
         "venue": "The 34th Annual Conference on Neural Information Processing Systems (NeurIPS), 2020",
         "links": {
             "PDF": "https://arxiv.org/pdf/2006.14610.pdf"
-        }
+        },
+        "year": 2020,
     },
     {
         "title": "Phoneme Boundary Detection using Learnable Segmental Features",
@@ -107,7 +127,8 @@ papers = [
         "links": {
             "PDF,": "https://arxiv.org/pdf/2002.04992.pdf",
             "Code": "https://github.com/felixkreuk/SegFeat"
-        }
+        },
+        "year": 2020,
     },
     {
         "title": "Deceiving End-to-End Deep Learning Malware Detectors using Adversarial Examples",
@@ -115,7 +136,8 @@ papers = [
         "venue": "Workshop track at 32nd Conference on Neural Information Processing Systems (NeurIPS), 2018",
         "links": {
             "PDF": "https://arxiv.org/pdf/1802.04528.pdf"
-        }
+        },
+        "year": 2018,
     },
     {
         "title": "Fooling End-to-end Speaker Verification by Adversarial Examples",
@@ -123,7 +145,8 @@ papers = [
         "venue": "IEEE International Conference in Acoustic, Speech and Signal Processing (ICASSP), 2018",
         "links": {
             "PDF": "https://arxiv.org/pdf/1801.03339.pdf"
-        }
+        },
+        "year": 2018,
     },
 ]
 
