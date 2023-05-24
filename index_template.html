@@ -116,8 +116,6 @@
                   {% if paper["year"] != ns.prev_year %}
                     <h3>{{ paper["year"] }}</h3>
                     {% set ns.prev_year = paper["year"] %}
-                  {% else %}
-                    bla
                   {% endif %}
                   <li id="paper"  class="mb-1"> {{ paper["authors"] }}. <b>{{ paper["title"] }}</b>. <em>{{ paper["venue"] }}</em> </li>
                   [{% for type, link in paper["links"].items() %}
