@@ -33,6 +33,15 @@ papers = [
         "year": 2023,
     },
     {
+        "title": "On The Robustness of Self-Supervised Representations for Spoken Language Modeling",
+        "authors": "Itai Gat, <u>Felix Kreuk</u>, Ann Lee, Jade Copet, Gabriel Synnaeve, Emmanuel Dupoux, Yossi Adi",
+        "venue": "The International Conference on Spoken Language Translation (IWSLT), 2022",
+        "links": {
+            "PDF": "https://arxiv.org/pdf/2209.15483",
+        },
+        "year": 2022,
+    },
+    {
         "title": "Textless Speech Emotion Conversion using Decomposed and Discrete Representations",
         "authors": "<u>Felix Kreuk</u>, Adam Polyak, Jade Copet, Eugene Kharitonov, Tu-Anh Nguyen, Morgane Rivière, Wei-Ning Hsu, Abdelrahman Mohamed Emmanuel Dupoux, Yossi Adi",
         "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2022",
